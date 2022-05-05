@@ -1,0 +1,103 @@
+body {
+  text-align: center;
+  background-color: black;
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 73px;
+  text-align: center;
+}
+
+.header h1 {
+  font-family: Raleway,Medium;
+  font-size: 50px;
+  color: white;
+}
+
+.header img {
+  width: 1280px;
+  height: 727px;
+}
+
+/* Contenido*/
+.contenido {
+  margin: 2em;  
+}
+.texto {
+  width: 475px;
+  height: 197px;
+  float: left;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.texto p {
+  font-family: Raleway,Light;
+  color: white;
+  text-align: left;
+}
+.imagen{
+  display:inline-block;
+  width: 31%;
+}
+.imagen img {
+  width: 100%;
+}
+
+/*Características*/
+.caracteristicas {
+  padding: 45px;
+  background-color: rgba(30, 26, 19, 1);
+  color: white;
+  height: 248px;
+}
+
+h2 {
+  font-family: Raleway,Medium;
+  font-size: 40px;
+  padding: 30px;
+}
+
+.iconos {
+  align-content: center;
+}
+
+.icon {
+  padding-left: 115px;
+  display: inline-block;
+}
+
+.icon i {
+  width: 57px;
+  height: 57px;
+  padding: 0.2em;
+}
+
+.icon p {
+  font-family: Raleway,Light;
+  font-size: 30px;
+}
+
+
+/*Iguanas*/
+.iguanas {
+  align-content: center;
+}
+
+.iguanas img {
+  width: 316px;
+  height: 200px;
+  padding: 16px;
+  display: inline-block;
+}
+
+/* Footer */
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgba(30, 26, 19, 1);
+  color: white;
+  font-family: Raleway,Light;
+  font-size: 20px;
+}
